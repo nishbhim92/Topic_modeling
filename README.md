@@ -28,16 +28,16 @@ Run the topic_modeling.py file in a terminal: python topic_modeling.py
 
 The script performs the following steps:
 
-⋅⋅* Import necessary libraries.
-⋅⋅* Load data from an Excel file.
-⋅⋅* Select the 'Abstract' column and transform it into a list of documents.
-⋅⋅* Train a Top2Vec model on the documents.
-⋅⋅* Analyze the topics, and print the total number of topics and their sizes.
-⋅⋅* Perform hierarchical topic reduction, reducing the number of topics to 1.
-⋅⋅* Print the number and words of each topic.
-⋅⋅* Search the documents that belong to topic number 0 and get the top 10.
-⋅⋅* Print the document ID, score, and text of each document.
-⋅⋅* Generate a word cloud for the first topic.
+* Import necessary libraries.
+* Load data from an Excel file.
+* Select the 'Abstract' column and transform it into a list of documents.
+* Train a Top2Vec model on the documents.
+* Analyze the topics, and print the total number of topics and their sizes.
+* Perform hierarchical topic reduction, reducing the number of topics to 1.
+* Print the number and words of each topic.
+* Search the documents that belong to topic number 0 and get the top 10.
+* Print the document ID, score, and text of each document.
+* Generate a word cloud for the first topic.
 
 ## Result
 
